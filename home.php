@@ -12,6 +12,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <style>
+  .header {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 </style>
 </head>
 
@@ -38,10 +45,10 @@ include('head.php'); ?>
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="image\_107317099_blooddonor976.jpg" alt="image\_107317099_blooddonor976.jpg" width="100%" height="500">
+        <img src="image\_107317099_blooddonor976.jpeg" alt="image\_107317099_blooddonor976.jpeg" width="100%" height="500">
       </div>
       <div class="carousel-item">
-        <img src="image\Blood-facts_10-illustration-graphics__canteen.png" alt="image\Blood-facts_10-illustration-graphics__canteen.png" width="100%" height="500">
+        <img src="image\Blood-facts_10-illustration-graphics__canteen.jpeg" alt="image\Blood-facts_10-illustration-graphics__canteen.jpeg" width="100%" height="500">
       </div>
 
     </div>
@@ -133,7 +140,7 @@ include('head.php'); ?>
            ?>
             <div class="col-lg-4 col-sm-6 portfolio-item" ><br>
             <div class="card" style="width:300px">
-                <img class="card-img-top" src="image\blood_drop_logo.jpg" alt="Card image" style="width:100%;height:300px">
+                <img class="card-img-top" src="image\blood_drop_logo.jpeg" alt="Card image" style="width:100%;height:300px">
                 <div class="card-body">
                   <h3 class="card-title"><?php echo $row['donor_name']; ?></h3>
                   <p class="card-text">

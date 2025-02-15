@@ -50,11 +50,16 @@
   position:relative;
     width:90%
 }
+.news.aqua {
+    background-color: #017B92; /* Dark Aqua */
+    color: white; /* Ensures white text is visible */
+}
+
 </style>
 </head>
 <body>
-<div class="news blue">
-<span style="background-color:#F60F0F;width:125px;height:50px">Latest Updates</span><span class="text1" ><marquee>First blood donation camp to be organised in Hisar By Varun in collabration with Blood Bank& Donation Management System on <b>01/09/2020 at Community Centre PLA.</b> Come and Be a Part of this Noble Cause :) </marquee></span>
+<div class="news aqua">
+<span style="background-color:#F60F0F;width:125px;height:50px">Latest Updates</span><span class="text1" ><marquee>First blood donation camp to be organised in patna By Navnit in collabration with Blood Bank& Donation Management System on <b>01/01/2025 at kankarbagh.</b> Come and Be a Part of this Noble Cause :) </marquee></span>
 </div>
 </body>
 </head>
